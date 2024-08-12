@@ -6,7 +6,7 @@
 .text_block {
     font-family: "Saira Semi Condensed", sans-serif;
     /* margin: 1rem; */
-    padding: 2rem 1.25rem;
+    padding: 1rem 1.25rem 2rem 1.25rem;
 }
 
 .text_block p {

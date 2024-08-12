@@ -1,0 +1,23 @@
+.icon_grid_container {
+    /* background-color: rgb(146, 74, 74); */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.dummy_icon {
+    border-radius: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    .icon_grid_container {
+
+    }
+}
