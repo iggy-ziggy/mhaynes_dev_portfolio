@@ -1,0 +1,17 @@
+.footer {
+    /* background-color: rgb(186, 238, 43); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.copyright {
+    opacity: .5;
+}
+
+.footer_icon {
+    border-radius: 100%;
+    margin-left: 1rem;
+    width: 20px;
+}

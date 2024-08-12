@@ -25,7 +25,7 @@ const Card = ({ children, title, src, alt, btnName }) => {
 };
 
 Card.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.arrayOf(PropTypes.element),
   title: PropTypes.string,
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
