@@ -1,0 +1,32 @@
+.btn {
+    background-color: #58fff5;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    padding: .5em 1em;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: #44d1c8;
+}
+
+.btn:active {
+    background-color: #00a69b;
+}
+
+@media screen and (min-width: 768px) {
+    .btn {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .btn {
+        font-size: 1.3em;
+    }
+}
