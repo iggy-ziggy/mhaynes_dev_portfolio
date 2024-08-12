@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  color: white;
+  font-family: "Saira Semi Condensed", sans-serif;
+  font-weight: 300;
   margin: 0;
-  /* white-space: pre-line; */
 }
 
 html, body {
-    /* background-color: black; */
+    background-color: var(--black);
 }

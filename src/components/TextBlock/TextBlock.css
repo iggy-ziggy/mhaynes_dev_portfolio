@@ -1,0 +1,22 @@
+.grey {
+    background-color: var(--darkGrey);
+    width: 100%;
+}
+
+.text_block {
+    font-family: "Saira Semi Condensed", sans-serif;
+    /* margin: 1rem; */
+    padding: 2rem 1.25rem;
+}
+
+.text_block p {
+    margin: .5rem 0;
+}
+
+.text_block p, span {
+    color: var(--lightGrey);
+}
+
+.bold {
+    font-weight: 500;
+}

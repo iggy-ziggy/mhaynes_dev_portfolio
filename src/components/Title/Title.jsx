@@ -1,15 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import "./Title.css"
+import React from "react";
+import PropTypes from "prop-types";
+import "./Title.css";
 
-const Title = ({children}) => {
+const Title = ({ text, style }) => {
   return (
-    <h1 className='page_title'>{children}</h1>
-  )
-}
+    <h1 className="page_title" style={style}>
+      {text}
+    </h1>
+  );
+};
 
 Title.propTypes = {
-    children: PropTypes.string.isRequired,
-}
+  text: PropTypes.string.isRequired,
+  style: PropTypes.object,
+};
 
-export default Title
+export default Title;

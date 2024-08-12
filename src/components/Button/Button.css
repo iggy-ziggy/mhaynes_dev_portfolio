@@ -2,10 +2,11 @@
     background-color: #58fff5;
     border-radius: 8px;
     border: none;
-    color: white;
+    color: var(--black);
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
+    font-weight: 600;
     padding: .5em 1em;
     transition: background-color 0.3s ease;
     white-space: nowrap;
