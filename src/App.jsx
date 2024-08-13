@@ -7,6 +7,7 @@ import IconGrid from "./components/IconGrid/IconGrid";
 import Footer from "./components/Footer/Footer";
 import Placeholder from "./assets/generic_placeholder_500x500.png";
 import HomePage from "./pages/HomePage/HomePage";
+import SkillsPage from "./pages/SkillsPage/SkillsPage";
 import icon1 from "./assets/generic_placeholder_500x500.png";
 import icon2 from "./assets/generic_placeholder_500x500.png";
 import icon3 from "./assets/generic_placeholder_500x500.png";
@@ -21,7 +22,8 @@ function App() {
   return (
     <>
       <div className="container">
-        <HomePage />
+        {/* <HomePage /> */}
+        <SkillsPage />
       </div>
 
       {/* <IconGrid>{icons}</IconGrid> */}
