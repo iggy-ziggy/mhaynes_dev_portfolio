@@ -1,5 +1,7 @@
 .icon_grid_container {
     /* background-color: rgb(146, 74, 74); */
+    margin: auto;
+    max-width: 600px;
 }
 
 .grid {
@@ -13,6 +15,7 @@
 
 .dummy_icon {
     border-radius: 100%;
+    /* max-width: 200px; */
     width: 100%;
 }
 

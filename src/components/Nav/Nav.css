@@ -1,0 +1,26 @@
+.menu_icon_container {
+    background-color: var(--black);
+    display: flex;
+    justify-content: end;
+    padding-right: .5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.menu_icon {
+    /* stroke: white; */
+    cursor: pointer;
+    stroke: var(--pink);
+    opacity: .5;
+    width: 2rem;
+    transition: .15s ease;
+}
+
+.menu_icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.menu_icon:active {
+    stroke: var(--blue);
+}

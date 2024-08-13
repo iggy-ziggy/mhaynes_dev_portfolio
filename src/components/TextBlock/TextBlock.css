@@ -5,6 +5,7 @@
 
 .text_block {
     font-family: "Saira Semi Condensed", sans-serif;
+    font-size: 1.2rem;
     /* margin: 1rem; */
     padding: 1rem 1.25rem 2rem 1.25rem;
 }
@@ -19,4 +20,25 @@
 
 .bold {
     font-weight: 500;
+}
+
+@media screen and (min-width: 700px) {
+    .text_block {
+        padding: 2rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .text_block {
+        padding: 2rem 4.5rem;
+    }
+}
+
+
+
+@media screen and (min-width: 900px) {
+    .grey {
+        background-color: var(--black);
+        border-radius: 10px;
+    }
 }

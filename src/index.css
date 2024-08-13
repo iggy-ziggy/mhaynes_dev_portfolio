@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+#root {
+  height: 100vh;
+}
+
 html, body {
     background-color: var(--black);
 }

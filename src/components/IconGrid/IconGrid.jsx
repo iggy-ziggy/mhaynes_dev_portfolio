@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Placeholder from '../../assets/generic_placeholder_500x500.png'
+import Placeholder from '../../assets/generic_placeholder_500x500_pink.png'
 import "./IconGrid.css";
 
 const IconGrid = ({ children }) => {

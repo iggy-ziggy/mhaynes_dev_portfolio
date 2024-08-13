@@ -3,15 +3,19 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
+    opacity: .5;
     padding: 2rem;
+    position: sticky;
 }
 
 .copyright {
-    opacity: .5;
+    /* opacity: .5; */
 }
 
 .footer_icon {
     border-radius: 100%;
+    cursor: pointer;
     margin-left: 1rem;
     width: 20px;
 }
+
