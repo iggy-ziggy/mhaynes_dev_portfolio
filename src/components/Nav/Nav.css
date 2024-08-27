@@ -5,11 +5,13 @@
     padding-right: .5rem;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .menu_icon {
     /* stroke: white; */
     cursor: pointer;
+    margin-right: 1rem;
     stroke: var(--pink);
     opacity: .5;
     width: 2rem;

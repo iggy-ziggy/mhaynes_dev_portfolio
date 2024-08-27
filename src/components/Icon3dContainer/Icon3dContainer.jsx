@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Icon3dCanvas from '../Icon/Icon3d'
 import { SiBootstrap, SiCss3, SiExpress, SiGraphql, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiReact, SiSequelize } from '@icons-pack/react-simple-icons'
+import './Icon3dContainer.css'
 
 const icons2 = [
     {
@@ -56,8 +57,8 @@ const Icon3dContainer = () => {
       <>
         <div className="icon_container">
           {icons2.map((icon, index) => (
-            <div key={icon.name} onClick={() => handleClick(index)} className={`icon ${clicked !== index ? '' : 'clicked'}`}>
-              <h2 className="icon_title">{icon.name}</h2>
+            <div key={icon.name} onClick={() => handleClick(index)} className='icon'>
+              <h2 className={`icon_title ${clicked === index ? 'in' : 'out'}`}>{icon.name}</h2>
               <Icon3dCanvas image={icon.image} />
             </div>
           ))}

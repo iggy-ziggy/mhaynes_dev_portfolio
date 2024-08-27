@@ -3,6 +3,7 @@
     font-weight: 600;
     text-align: center;
     animation: enlarge 2s;
+    margin: 4rem 0;
 }
 
 @keyframes enlarge {
