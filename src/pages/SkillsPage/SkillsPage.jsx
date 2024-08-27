@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../../components/Image/Image";
 import Title from "../../components/Title/Title";
 import IconGrid from "../../components/IconGrid/IconGrid";
+import Icon3dContainer from "../../components/Icon3dContainer/Icon3dContainer";
 import TextBlock from "../../components/TextBlock/TextBlock";
 import Skills from "../../lib/Skills";
 import Button from "../../components/Button/Button";
@@ -16,7 +17,8 @@ const SkillsPage = () => {
         <Image src={Placeholder} alt="placeholder" />
         <Title text={`The Bag of Tricks`} />
       </div>
-        <IconGrid>{icons}</IconGrid>
+        {/* <IconGrid>{icons}</IconGrid> */}
+        <Icon3dContainer />
       <div className="skills_content">
         <TextBlock>
           <Skills />

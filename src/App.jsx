@@ -21,7 +21,7 @@ function App() {
     <>
     <Nav />
       <div className="container">
-        <HomePage />
+        {/* <HomePage /> */}
         <SkillsPage />
         <Footer>
           {icons}
