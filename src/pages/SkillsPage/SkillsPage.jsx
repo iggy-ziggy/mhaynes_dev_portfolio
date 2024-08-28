@@ -6,7 +6,8 @@ import Icon3dContainer from "../../components/Icon3dContainer/Icon3dContainer";
 import TextBlock from "../../components/TextBlock/TextBlock";
 import Skills from "../../lib/Skills";
 import Button from "../../components/Button/Button";
-import Placeholder from "../../assets/generic_placeholder_500x500_yellow.png";
+// import Placeholder from "../../assets/generic_placeholder_500x500_yellow.png";
+import BagOfTricks from '../../assets/bag_of_tricks_icon_yellow_alt_border2.png'
 import './SkillsPage.css'
 
 const SkillsPage = () => {
@@ -14,7 +15,7 @@ const SkillsPage = () => {
   return (
     <div className="page_container grid1x1">
       <div>
-        <Image src={Placeholder} alt="placeholder" />
+        <Image src={BagOfTricks} alt="magic bag" />
         <Title text={`The Bag of Tricks`} />
       </div>
         {/* <IconGrid>{icons}</IconGrid> */}
