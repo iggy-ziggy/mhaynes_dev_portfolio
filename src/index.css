@@ -1,8 +1,22 @@
+:root {
+  --yellow: #e7ff89;
+  --blue: #58fff5;
+  --pink: #d65dd9;
+  --purple: #c955ff;
+  --lightGrey: #def0f4;
+  --grey: #9b9b9b;
+  --mediumGrey: #6c6c6c;
+  --darkGrey: #2a2a2a;
+  --black: #161616;
+  /* --black: #121212; */
+}
+
 * {
   box-sizing: border-box;
   color: white;
   font-family: "Saira Semi Condensed", sans-serif;
   font-weight: 300;
+  letter-spacing: 1.6px;
   margin: 0;
 }
 
@@ -10,6 +24,7 @@
   height: 100vh;
 }
 
-html, body {
-    background-color: var(--black);
+html,
+body {
+  background-color: var(--black);
 }

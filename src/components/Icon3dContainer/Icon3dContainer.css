@@ -1,0 +1,58 @@
+.icon_container {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+  }
+  
+  .icon {
+    position: relative;
+    width: 100%;
+    max-width: 170px;
+    margin: auto;
+    aspect-ratio: 1;
+  }
+  
+  .icon_title {
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: -15%;
+    z-index: 1;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(255, 255, 120);
+    transition: opacity .5s ease-in-out;
+  }
+
+  .in {
+    opacity: 1;
+  }
+
+  .out {
+    opacity: 0;
+  }
+
+  @media screen and (min-width: 500px) {
+    .icon_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon {
+        max-width: 200px;
+        margin: 0;
+    }
+  }
+
+  @media (hover: hover) {
+    .icon:hover .icon_title {
+        opacity: 1;
+      }
+  }

@@ -1,14 +1,5 @@
 :root {
-    --yellow: #e7ff89;
-    --blue: #58fff5;
-    --pink: #d65dd9;
-    --purple: #c955ff;
-    --lightGrey: #def0f4;
-    --grey: #9b9b9b;
-    --mediumGrey: #6c6c6c;
-    --darkGrey: #2a2a2a;
-    --black: #161616;
-    /* --black: #121212; */
+    
 }
 
 .small {
@@ -60,3 +51,4 @@
         align-items: center;
     }
 } */
+
