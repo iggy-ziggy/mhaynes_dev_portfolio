@@ -1,6 +1,7 @@
 .hero {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 6rem;
     justify-content: center;
     align-items: center;
 }
@@ -11,7 +12,7 @@
 }
 
 .hero_title h2 {
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 500;
 }
 

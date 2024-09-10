@@ -16,6 +16,8 @@ import AboutMe from "./lib/AboutMe";
 import "./App.css";
 import React from "react";
 import Hero from "./components/Hero/Hero";
+import StickyNote from "./components/StickyNote/StickyNote";
+import StickyNoteGrid from "./components/StickyNoteGrid/StickyNoteGrid";
 
 function App() {
   const test_array = [
@@ -69,6 +71,7 @@ function App() {
     },
   ];
   const icons = [icon1, icon2, icon3];
+  const iconsText = [`here's some text`, `and a little more text`, `and look! MORE TEXT!`]
   return (
     <>
       {/* <Nav />
@@ -80,7 +83,11 @@ function App() {
         </Footer>
       </div> */}
       <h1>REDUX</h1>
-      <Hero />
+      <HomePage />
+      {/* <StickyNoteGrid notes={iconsText} /> */}
+      {/* {iconsText.map((note, i) => (
+      <StickyNote key={i} text={note} />
+      ))} */}
     </>
   );
 }
