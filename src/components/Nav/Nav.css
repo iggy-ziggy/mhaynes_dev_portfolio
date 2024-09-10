@@ -1,11 +1,18 @@
 .menu_icon_container {
     background-color: var(--black);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
     padding-right: .5rem;
     position: fixed;
     width: 100%;
     z-index: 10;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    opacity: 0;
 }
 
 .menu_icon {
@@ -25,4 +32,10 @@
 
 .menu_icon:active {
     stroke: var(--blue);
+}
+
+@media screen and (min-width: 750px) {
+    .logo {
+        opacity: .5;
+    }
 }

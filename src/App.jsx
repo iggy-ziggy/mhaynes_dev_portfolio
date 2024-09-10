@@ -82,9 +82,13 @@ function App() {
           {icons}
         </Footer>
       </div> */}
+      <Nav />
       <h1>REDUX</h1>
-      {/* <HomePage /> */}
+      <HomePage />
       <SkillsPage />
+      <Footer>
+          {icons}
+        </Footer>
       {/* <StickyNoteGrid notes={iconsText} /> */}
       {/* {iconsText.map((note, i) => (
       <StickyNote key={i} text={note} />

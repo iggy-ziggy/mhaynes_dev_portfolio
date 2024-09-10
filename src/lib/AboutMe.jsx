@@ -3,6 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <div>
+      {/* <h3 style={{textAlign: 'center'}}>{`HI. I'M MATT.`}</h3> */}
       <p>
         <span className="bold">
           I approach code with the same passion I do my painting

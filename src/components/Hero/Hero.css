@@ -12,7 +12,7 @@
 }
 
 .hero_title h2 {
-    font-size: 3.3rem;
+    font-size: 3.6rem;
     font-weight: 500;
 }
 
@@ -30,6 +30,13 @@
     width: 100%;
 }
 
+@media screen and (max-width: 360px) {
+    .hero_title h2 {
+        line-height: .8;
+        margin-top: 1rem;
+    }
+}
+
 @media screen and (min-width: 750px) {
     .hero {
         grid-template-columns: repeat(5, 1fr);
@@ -38,6 +45,9 @@
         grid-column: 1/3;
         position: relative;
         right: -15%;
+    }
+    .hero_title h2 {
+        line-height: .8;
     }
     .hero_image {
         clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 100%);

@@ -1,6 +1,8 @@
 :root {
+  --gold: #ffce3b;
   --yellow: #e7ff89;
   --blue: #58fff5;
+  --darkBlue: #008290;
   --pink: #d65dd9;
   --purple: #c955ff;
   --lightGrey: #def0f4;
@@ -16,12 +18,12 @@
   color: white;
   font-family: "Saira Semi Condensed", sans-serif;
   font-weight: 300;
-  letter-spacing: 1.6px;
+  letter-spacing: .8px;
   margin: 0;
 }
 
 #root {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 html,

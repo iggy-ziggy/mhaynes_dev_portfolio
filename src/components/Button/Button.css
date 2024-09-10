@@ -5,7 +5,7 @@
     color: var(--black);
     cursor: pointer;
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: .5em 1em;
     transition: background-color, transform 0.3s ease;
@@ -14,6 +14,7 @@
 
 .btn:hover {
     background-color: #81fff7;
+    color: var(--darkBlue);
     filter: drop-shadow(0 0 5px var(--blue));
     transform: scale(1.1);
 }
