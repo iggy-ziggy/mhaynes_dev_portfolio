@@ -7,20 +7,20 @@ import TextBlock from "../../components/TextBlock/TextBlock";
 import Skills from "../../lib/Skills";
 import Button from "../../components/Button/Button";
 // import Placeholder from "../../assets/generic_placeholder_500x500_yellow.png";
-import BagOfTricks from '../../assets/bag_of_tricks_icon_yellow_alt_border2.png'
-import './SkillsPage.css'
+import BagOfTricks from "../../assets/bag_of_tricks_icon_only.png";
+import "./SkillsPage.css";
+import StickyNote from "../../components/StickyNote/StickyNote";
 
 const SkillsPage = () => {
   const icons = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   return (
-    <div className="page_container grid1x1">
-      <div>
-        <Image src={BagOfTricks} alt="magic bag" />
-        <Title text={`The Bag of Tricks`} />
-      </div>
-        {/* <IconGrid>{icons}</IconGrid> */}
+    <div className="page_container">
+      <Title text={`The Bag of Tricks`} />
+      <div className="skills_content grid1x1">
+        <StickyNote image={BagOfTricks} />
         <Icon3dContainer />
-      <div className="skills_content">
+      </div>
+      <div className="page_text">
         <TextBlock>
           <Skills />
         </TextBlock>

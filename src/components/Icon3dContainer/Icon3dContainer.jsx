@@ -11,7 +11,6 @@ const Icon3dContainer = () => {
   };
 
   return (
-    <>
       <div className="icon_container">
         {iconsData.map((icon, index) => (
           <div
@@ -26,7 +25,6 @@ const Icon3dContainer = () => {
           </div>
         ))}
       </div>
-    </>
   );
 };
 

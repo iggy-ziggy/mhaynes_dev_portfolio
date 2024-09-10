@@ -1,11 +1,20 @@
 .single_sticky_note_container {
   color: var(--mediumGrey);
   position: relative;
+  margin: 0 auto;
   max-width: 400px;
 }
 
-.single_sticky_note_container img {
+.sticky_note_base {
   width: 100%;
+}
+
+.sticky_icon {
+  width: 45%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .single_sticky_note_container h4 {
