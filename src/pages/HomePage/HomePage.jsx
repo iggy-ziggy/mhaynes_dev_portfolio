@@ -35,7 +35,7 @@ import StickyNote from "../../components/StickyNote/StickyNote";
 //   );
 // };
 
-const icons = ["here's a message", "and another", "and a third!"];
+const icons = ["avid learner", "curious", "etc!"];
 
 const HomePage = () => {
   return (
