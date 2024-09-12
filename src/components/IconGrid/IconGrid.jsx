@@ -5,15 +5,6 @@ import "./IconGrid.css";
 
 const IconGrid = ({ children }) => {
   return (
-    // <div className="icon_grid_container">
-    //   <div className="grid">
-    //     {children.map((c, i) => (
-    //       <div className="dummy_icon" key={i}>
-    //         {c}
-    //       </div>
-    //     ))}
-    //   </div>
-    // </div>
     <div className="icon_grid_container">
       <div className="grid">
         {children.map((c, i) => (

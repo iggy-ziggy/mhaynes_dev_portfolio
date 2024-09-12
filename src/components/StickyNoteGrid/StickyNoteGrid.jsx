@@ -1,7 +1,6 @@
 import React from "react";
 import "./StickyNoteGrid.css";
 import StickyNotePNG from "../../assets/post_it.png";
-import StickyNote from "../StickyNote/StickyNote";
 
 const StickyNoteGrid = ({ notes }) => {
   return (
