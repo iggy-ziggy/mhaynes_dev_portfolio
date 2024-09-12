@@ -91,11 +91,11 @@ function App() {
 
   return (
     <>
-      {/* <Nav />
-        <HomePage />
-        <SkillsPage />
-      <Footer>{icons}</Footer> */}
+      <Nav />
+      <HomePage />
+      <SkillsPage />
       <ProjectsPage />
+      <Footer>{icons}</Footer>
     </>
   );
 }

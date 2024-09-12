@@ -1,9 +1,9 @@
-.skills_content .single_sticky_note_container {
+.skills_content .sticky_note_container {
   transform: rotate(8deg);
 }
 
 @media screen and (min-width: 900px) {
-  .skills_content .single_sticky_note_container {
+  .skills_content .sticky_note_container {
     margin-top: -10rem;
   }
 }
