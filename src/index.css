@@ -30,3 +30,7 @@ html,
 body {
   background-color: var(--black);
 }
+
+a {
+  text-decoration: none;
+}

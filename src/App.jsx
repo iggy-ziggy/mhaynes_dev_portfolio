@@ -7,6 +7,9 @@ import icon2 from "./assets/generic_placeholder_500x500_purple.png";
 import icon3 from "./assets/generic_placeholder_500x500_purple.png";
 import "./App.css";
 import React from "react";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
+import Project from "./components/Project/Project";
+import StickyNote from "./components/StickyNote/StickyNote";
 
 function App() {
   const test_array = [
@@ -68,12 +71,40 @@ function App() {
     `and look! MORE TEXT!`,
   ];
 
+  const projectInfo = [
+    {
+      title: "Project 1",
+      github: "https://github.com/",
+      deploy: "https://www.google.com/",
+    },
+    {
+      title: "Project 2",
+      github: "https://github.com/",
+      deploy: "https://www.google.com/",
+    },
+    {
+      title: "Project 3",
+      github: "https://github.com/",
+      deploy: "https://www.google.com/",
+    },
+  ];
+
   return (
     <>
-      <Nav />
+      {/* <Nav />
         <HomePage />
         <SkillsPage />
-      <Footer>{icons}</Footer>
+      <Footer>{icons}</Footer> */}
+      {/* <ProjectsPage /> */}
+      {/* <StickyNote text="Project 1" /> */}
+      {projectInfo.map((project, index) => (
+        <Project
+          key={index}
+          title={project.title}
+          github={project.github}
+          deploy={project.deploy}
+        />
+      ))}
     </>
   );
 }
