@@ -71,28 +71,18 @@ function App() {
     },
   ];
   const icons = [icon1, icon2, icon3];
-  const iconsText = [`here's some text`, `and a little more text`, `and look! MORE TEXT!`]
+  const iconsText = [
+    `here's some text`,
+    `and a little more text`,
+    `and look! MORE TEXT!`,
+  ];
   return (
     <>
-      {/* <Nav />
-      <div className="container">
+      <Nav />
+      {/* <h1>REDUX</h1> */}
         <HomePage />
         <SkillsPage />
-        <Footer>
-          {icons}
-        </Footer>
-      </div> */}
-      <Nav />
-      <h1>REDUX</h1>
-      <HomePage />
-      <SkillsPage />
-      <Footer>
-          {icons}
-        </Footer>
-      {/* <StickyNoteGrid notes={iconsText} /> */}
-      {/* {iconsText.map((note, i) => (
-      <StickyNote key={i} text={note} />
-      ))} */}
+      <Footer>{icons}</Footer>
     </>
   );
 }

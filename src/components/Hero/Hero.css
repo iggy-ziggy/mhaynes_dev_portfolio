@@ -1,7 +1,7 @@
 .hero {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 6rem;
+    padding-top: 8rem;
     justify-content: center;
     align-items: center;
 }
