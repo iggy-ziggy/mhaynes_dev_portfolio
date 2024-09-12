@@ -95,16 +95,7 @@ function App() {
         <HomePage />
         <SkillsPage />
       <Footer>{icons}</Footer> */}
-      {/* <ProjectsPage /> */}
-      {/* <StickyNote text="Project 1" /> */}
-      {projectInfo.map((project, index) => (
-        <Project
-          key={index}
-          title={project.title}
-          github={project.github}
-          deploy={project.deploy}
-        />
-      ))}
+      <ProjectsPage />
     </>
   );
 }

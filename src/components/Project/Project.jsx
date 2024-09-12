@@ -4,7 +4,6 @@ import StickyNote from "../StickyNote/StickyNote";
 
 const Project = ({ title, github, deploy }) => {
   return (
-    <div className="project">
       <StickyNote
         text={title}
         links={[
@@ -12,7 +11,6 @@ const Project = ({ title, github, deploy }) => {
           { name: "Deploy", url: deploy },
         ]}
       />
-    </div>
   );
 };
 
