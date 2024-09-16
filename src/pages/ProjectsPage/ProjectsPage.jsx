@@ -49,7 +49,7 @@ const projectArray = [
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <div className="page_container">
       <Title text="The Goods" />
       <div className="projects_container">
         {projectArray.map((project, index) => (
