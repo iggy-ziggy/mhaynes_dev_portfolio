@@ -1,5 +1,47 @@
-.contact--form {
-text-align: center;
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  /* filter: drop-shadow(0 0 1rem rgba(200, 50, 255, 0.5)); */
 }
 
+.contact_form {
+  background-color: var(--mediumDarkGrey);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 3rem;
+  width: 100%;
+}
 
+.form_header {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+label {
+  display: block;
+  color: var(--gold);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+form input,
+textarea {
+  background-color: var(--grey);
+  border: none;
+  color: var(--black);
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.input {
+  margin-top: 0.65rem;
+}
+
+form .btn {
+    font-size: 1.6rem;
+  margin: 2rem auto 0 auto;
+}
