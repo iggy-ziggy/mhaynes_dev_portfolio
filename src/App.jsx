@@ -10,6 +10,7 @@ import React from "react";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import Project from "./components/Project/Project";
 import StickyNote from "./components/StickyNote/StickyNote";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 function App() {
   const test_array = [
@@ -91,11 +92,12 @@ function App() {
 
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <HomePage />
       <SkillsPage />
       <ProjectsPage />
-      <Footer>{icons}</Footer>
+      <Footer>{icons}</Footer> */}
+      <ContactForm />
     </>
   );
 }

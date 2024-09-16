@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Button.css";
 
-const Button = ({ text, onClick, style }) => {
+const Button = ({ text, type, onClick, style }) => {
   return (
-    <div className="btn" onClick={onClick} style={style}>
+    <button className="btn" type={type} onClick={onClick} style={style}>
       {text}
-    </div>
+    </button>
   );
 };
 
