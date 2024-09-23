@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { SiLinkedin, SiGithub } from "@icons-pack/react-simple-icons";
-import MHIcon from "../../assets/mh_footer_icon_purple.png";
+import React from "react";
 import footerIcons from "../../lib/footerData";
 import "./Footer.css";
 
