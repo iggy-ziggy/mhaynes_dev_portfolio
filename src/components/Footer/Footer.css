@@ -12,10 +12,16 @@
     /* opacity: .5; */
 }
 
-.footer_icon {
-    border-radius: 100%;
-    cursor: pointer;
-    margin-left: 1rem;
-    width: 20px;
+.footer_icons {
+    display: flex;
+    gap: 1rem;
 }
 
+.footer_icon {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.footer_icon:hover {
+    transform: scale(1.2);
+}
