@@ -104,7 +104,7 @@ export default function ContactForm() {
       ...formData,
       [name]: value,
     });
-    console.log(formData)
+    // console.log(formData)
   };
 
   const handleSubmit = (e) => {
