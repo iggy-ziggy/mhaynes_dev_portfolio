@@ -43,27 +43,27 @@
 }
 
 .dropdown_list a {
-    color: var(--blue);
-    font-size: 2rem;
-    font-weight: 400;
+  color: var(--blue);
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .dropdown_list a:hover {
-    color: var(--pink);
+  color: var(--pink);
 }
 
 .dropdown_list {
   background-color: rgba(22, 22, 22, 0.5);
+  display: none;
   position: absolute;
   padding: 2.5rem;
   right: 30%;
-  opacity: 0;
 }
 
 .open {
-    stroke: var(--blue);
+  stroke: var(--blue);
 }
 
 .visible {
-    opacity: 1;
+  display: block;
 }

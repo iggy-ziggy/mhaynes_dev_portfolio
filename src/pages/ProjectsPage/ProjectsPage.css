@@ -10,7 +10,7 @@
 .project5,
 .project6,
 .project7,
-.project8 {
+.project8, .project9, .project10 {
   margin-top: -4rem;
 }
 
@@ -27,16 +27,22 @@
   transform: rotate(-8deg);
 }
 .project5 {
-  transform: rotate(-6deg);
+  transform: rotate(6deg);
 }
 .project6 {
-  transform: rotate(10deg);
-}
-.project7 {
   transform: rotate(-10deg);
 }
+.project7 {
+  transform: rotate(10deg);
+}
 .project8 {
-  transform: rotate(8deg);
+  transform: rotate(-8deg);
+}
+.project9 {
+  transform: rotate(5deg);
+}
+.project10 {
+  transform: rotate(-6deg);
 }
 
 @media screen and (min-width: 750px) {
