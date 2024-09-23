@@ -9,7 +9,7 @@ const icons = ["avid learner", "curious", "etc!"];
 
 const HomePage = () => {
   return (
-    <>
+    <div id="home_page">
       <Hero />
       <div className="home_page_content">
         <div className="home_text">
@@ -25,7 +25,7 @@ const HomePage = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

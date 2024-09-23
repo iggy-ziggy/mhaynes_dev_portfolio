@@ -10,7 +10,7 @@ import StickyNote from "../../components/StickyNote/StickyNote";
 
 const SkillsPage = () => {
   return (
-    <div className="page_container">
+    <div id="skills_page" className="page_container">
       <Title text={`The Bag of Tricks`} />
       <div className="skills_content grid1x1">
         <StickyNote image={BagOfTricks} />
