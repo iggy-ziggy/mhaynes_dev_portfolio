@@ -2,9 +2,6 @@ import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/HomePage/HomePage";
 import SkillsPage from "./pages/SkillsPage/SkillsPage";
-import icon1 from "./assets/generic_placeholder_500x500_purple.png";
-import icon2 from "./assets/generic_placeholder_500x500_purple.png";
-import icon3 from "./assets/generic_placeholder_500x500_purple.png";
 import "./App.css";
 import React from "react";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
@@ -65,8 +62,6 @@ function App() {
     },
   ];
 
-  const icons = [icon1, icon2, icon3];
-
   const iconsText = [
     `here's some text`,
     `and a little more text`,
@@ -98,7 +93,7 @@ function App() {
       <SkillsPage />
       <ProjectsPage />
       <ContactPage />
-      <Footer>{icons}</Footer>
+      <Footer />
     </>
   );
 }
