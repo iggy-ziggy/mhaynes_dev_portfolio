@@ -3,7 +3,6 @@ import Title from "../../components/Title/Title";
 import Icon3dContainer from "../../components/Icon3dContainer/Icon3dContainer";
 import TextBlock from "../../components/TextBlock/TextBlock";
 import Skills from "../../lib/Skills";
-import Button from "../../components/Button/Button";
 import ResumeDownload from "../../components/ResumeDownload/ResumeDownload";
 import BagOfTricks from "../../assets/bag_of_tricks_icon_only.png";
 import "./SkillsPage.css";

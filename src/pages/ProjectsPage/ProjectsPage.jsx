@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./ProjectsPage.css";
-import StickyNote from "../../assets/post_it.png";
 import Title from "../../components/Title/Title";
 import Project from "../../components/Project/Project";
 import projects from '../../lib/projectsData'
